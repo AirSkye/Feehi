@@ -1,0 +1,1 @@
+{"\/php\/<cat:php>":"article\/index","\/java\/<cat:java>":"article\/index","\/javascript\/<cat:javascript>":"article\/index"}

@@ -1,0 +1,160 @@
+Message-ID: <9794907900c3490fe348658f8497b40a@www.f.com>
+Date: Wed, 02 Jun 2021 14:09:29 +0800
+Subject: =?UTF-8?Q?=E6=9D=A5=E8=87=AA?= Feehi CMS
+ =?UTF-8?Q?=E5=89=8D=E5=8F=B0=E7=9A=84=E6=96=B0?=
+ =?UTF-8?Q?=E6=97=A5=E5=BF=97=E6=B6=88=E6=81=AF?=
+From: Feehi CMS robot  <admin@feehi.com>
+To: admin@feehi.com, liufee@126.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+2021-06-02 14:09:29
+[127.0.0.1][-][1dddmpci0q0ptkinb75vpbhvm0][error][yii\web\HttpException:4=
+04]
+exception 'yii\web\NotFoundHttpException' with message
+'=E6=9C=AA=E6=89=BE=E5=88=B0=E5=88=86=E7=B1=BBuploads/article/thumb/201607=
+1213020658@125x86.png' in
+D:\phpStudy1\PHPTutorial\WWW\Feehi\frontend\controllers\ArticleController.=
+php:78
+Stack trace:
+#0 [internal function]:
+frontend\controllers\ArticleController->actionIndex('')
+#1
+D:\phpStudy1\PHPTutorial\WWW\Feehi\vendor\yiisoft\yii2\base\InlineAction.p=
+hp(57):
+call_user_func_array(Array, Array)
+#2
+D:\phpStudy1\PHPTutorial\WWW\Feehi\vendor\yiisoft\yii2\base\Controller.php(=
+157):
+yii\base\InlineAction->runWithParams(Array)
+#3
+D:\phpStudy1\PHPTutorial\WWW\Feehi\vendor\yiisoft\yii2\base\Module.php(528)=
+:
+yii\base\Controller->runAction('index', Array)
+#4
+D:\phpStudy1\PHPTutorial\WWW\Feehi\vendor\yiisoft\yii2\web\Application.ph=
+p(103):
+yii\base\Module->runAction('', Array)
+#5
+D:\phpStudy1\PHPTutorial\WWW\Feehi\vendor\yiisoft\yii2\base\Application.p=
+hp(386):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\phpStudy1\PHPTutorial\WWW\Feehi\frontend\web\index.php(18):
+yii\base\Application->run()
+#7 {main}
+2021-06-02 14:09:28
+[127.0.0.1][-][1dddmpci0q0ptkinb75vpbhvm0][info][application] $_GET =3D
+[]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [
+    'PHPSESSID' =3D> '1dddmpci0q0ptkinb75vpbhvm0'
+    '_csrf_install' =3D>
+'7542460f230d6bbded41d74fc9ebc934ab701a7b0cc277eb25eea023c699ed12a:2:{i:0;=
+s:13:\"_csrf_install\";i:1;s:32:\"xhSzuJS69DNMv5o8KFL4DBaxh64kLEma\";}'
+    '_csrf' =3D>
+'2615b210efb042931b895718a8cc73dae4a9237063714e1a26e175ab30ea6e93a:2:{i:0;=
+s:5:\"_csrf\";i:1;s:32:\"QI_QIEt67Pkxzrzt9j4UjYeuBbupluSK\";}'
+    'BACKEND_FEEHICMS' =3D> 'uog18hsqh09guehdfvvgqsnqr5'
+    '_csrf_backend' =3D>
+'6759f2a7c5bb96dc1014767bc379b35ca1aae9184bb220ee7524bb4e850e9445a:2:{i:0;s=
+:13:\"_csrf_backend\";i:1;s:32:\"GQYD22IhWxCoZaW8h2O-RV-A2Y6fRdD9\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+    '__returnUrl' =3D> null
+]
+
+$_SERVER =3D [
+    'REDIRECT_STATUS' =3D> '200'
+    'HTTP_HOST' =3D> 'www.f.com'
+    'HTTP_CONNECTION' =3D> 'keep-alive'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212
+Safari/537.36'
+    'HTTP_ACCEPT' =3D>
+'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=3D0.8'
+    'HTTP_REFERER' =3D>
+'http://www.f.com/Feehi/frontend/web/index.php?r=3Darticle%2Findex&cat=3D=
+php'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'zh-CN,zh;q=3D0.9'
+    'HTTP_COOKIE' =3D> 'PHPSESSID=3D1dddmpci0q0ptkinb75vpbhvm0;
+_csrf_install=3D7542460f230d6bbded41d74fc9ebc934ab701a7b0cc277eb25eea023=
+c699ed12a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_install%22%3Bi%3A1%3Bs%3A32=
+%3A%22xhSzuJS69DNMv5o8KFL4DBaxh64kLEma%22%3B%7D;
+_csrf=3D2615b210efb042931b895718a8cc73dae4a9237063714e1a26e175ab30ea6e93a=
+%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QI_QIEt67Pkx=
+zrzt9j4UjYeuBbupluSK%22%3B%7D;
+BACKEND_FEEHICMS=3Duog18hsqh09guehdfvvgqsnqr5;
+_csrf_backend=3D6759f2a7c5bb96dc1014767bc379b35ca1aae9184bb220ee7524bb4e850=
+e9445a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A=
+%22GQYD22IhWxCoZaW8h2O-RV-A2Y6fRdD9%22%3B%7D'
+    'PATH' =3D> 'H:\\Program Files (x86)\\vm\\bin\\;H:\\Program
+Files\\Java\\jdk1.8.0_121\\jre\\bin;H:\\Program
+Files\\Java\\jdk1.8.0_121\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:=
+\\Program
+Files (x86)\\Common
+Files\\Oracle\\Java\\javapath;\"C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WIND=
+OWS\\system32\\WBEM\";C:\\Windows\\System32;C:\\Windows\\SysWOW64;D:\\py=
+thon;D:\\python\\Scripts;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\=
+\;D:\\Secruity\\AndroidRevese\\01AndroidCreate\\AndroidCreate\\sdk\\plat=
+form-tools;C:\\Program
+Files\\010
+Editor;C:\\Python27\\;%CATALINA_HOME%\\bin;C:\\Windows\\SysWOW64\\wbem;C:\=
+\Windows\\System32\\wbem;C:\\Program
+Files\\TortoiseSVN\\bin;C:\\Users\\52525\\AppData\\Local\\Tesseract-OCR;C:\=
+\WINDOWS\\system32;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\Wi=
+ndowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program
+Files\\Git\\cmd;H:\\metasploit-framework\\bin\\;C:\\Users\\52525\\Downloads=
+\\apache-maven-3.6.3-bin\\apache-maven-3.6.3\\bin;C:\\Python27\\Scripts\=
+\;D:\\Desktop\\Perl\\c\\bin;D:\\Desktop\\Perl\\perl\\site\\bin;D:\\Deskt=
+op\\Perl\\perl\\bin;C:\\Users\\52525\\composer\\;D:\\Program
+Files\\nodejs\\;C:\\Ruby23-x64\\bin;C:\\Users\\52525\\AppData\\Local\\Micro=
+soft\\WindowsApps;C:\\Users\\52525\\AppData\\Local\\Programs\\Microsoft
+VS Code\\bin;D:\\Program
+Files\\nodejs\\node_global;C:\\Users\\52525\\AppData\\Local\\BypassRuntm;=
+C:\\Program
+Files
+(x86)\\Nmap;C:\\Users\\52525\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Pr=
+ogram
+Files\\Mercurial;D:\\phpStudy1\\PHPTutorial\\php\\php-5.5.38;C:\\Users\\52=
+525\\AppData\\Roaming\\Composer\\vendor\\bin;H:\\DHCAD\\DHRT\\;C:\\DHCAD=
+\\DHDB\\;H:\\DHCAD\\DHDB\\;C:\\Users\\52525\\AppData\\Roaming\\npm'
+    'SystemRoot' =3D> 'C:\\WINDOWS'
+    'COMSPEC' =3D> 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' =3D>
+'.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' =3D> 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' =3D> ''
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j'
+    'SERVER_NAME' =3D> 'www.f.com'
+    'SERVER_ADDR' =3D> '127.0.0.1'
+    'SERVER_PORT' =3D> '80'
+    'REMOTE_ADDR' =3D> '127.0.0.1'
+    'DOCUMENT_ROOT' =3D> 'D:/phpStudy1/PHPTutorial/WWW'
+    'REQUEST_SCHEME' =3D> 'http'
+    'CONTEXT_PREFIX' =3D> ''
+    'CONTEXT_DOCUMENT_ROOT' =3D> 'D:/phpStudy1/PHPTutorial/WWW'
+    'SERVER_ADMIN' =3D> 'admin@php.cn'
+    'SCRIPT_FILENAME' =3D>
+'D:/phpStudy1/PHPTutorial/WWW/Feehi/frontend/web/index.php'
+    'REMOTE_PORT' =3D> '54257'
+    'REDIRECT_URL' =3D>
+'/Feehi/frontend/web/uploads/article/thumb/2016071213020658@125x86.png'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'REQUEST_METHOD' =3D> 'GET'
+    'QUERY_STRING' =3D> ''
+    'REQUEST_URI' =3D>
+'/Feehi/frontend/web/uploads/article/thumb/2016071213020658@125x86.png'
+    'SCRIPT_NAME' =3D> '/Feehi/frontend/web/index.php'
+    'PHP_SELF' =3D> '/Feehi/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1622614166.227
+    'REQUEST_TIME' =3D> 1622614166
+]
